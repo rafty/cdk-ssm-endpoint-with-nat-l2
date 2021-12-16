@@ -23,6 +23,5 @@ class Ec2Stack(Stack):
 
         SsmEndpointConstruct(
             self, 'SSM Endpoint Construct',
-            vpc=vpc,
-
+            vpc=vpc
         )

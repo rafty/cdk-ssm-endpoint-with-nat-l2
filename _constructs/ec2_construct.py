@@ -69,4 +69,3 @@ class Ec2InstanceConstruct(Construct):
     @property
     def instance(self):
         return self._ec2_instance
-
